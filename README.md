@@ -1,6 +1,6 @@
 # nx-cacher-cli
 ### custom nx cache like re-implementation for NX Monorepos
-
+![Cache Output](https://raw.githubusercontent.com/xsip/nx-cacher-cli/refs/heads/main/example-cache-entry.png)
 # How to use
 Run 
 ```shell
@@ -36,3 +36,6 @@ This will print out all projects needed to test, build, or whatever you wanna do
       - run: if [ "${{env.TARGETS}}" ]; then npx nx run-many -t build -p ${{env.TARGETS}} --parallel=5; fi
 
 ```
+
+# Sample Compare output
+![Compare](https://raw.githubusercontent.com/xsip/nx-cacher-cli/refs/heads/main/example-cache-compare-output.png)
