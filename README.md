@@ -1,5 +1,9 @@
-# nx-cacher-cli
-### custom nx cache like re-implementation for NX Monorepos
+# nx-cacher-cli - custom nx cache like re-implementation for NX Monorepos
+### Detects npm package version changes and prints affected apps/libs.
+### Detects fileystem changes using MD5 Hashes.
+### Detects if a lib/app is importing another lib that changed and will also print the depending libs.
+
+
 ![Cache Output](https://raw.githubusercontent.com/xsip/nx-cacher-cli/refs/heads/main/example-cache-entry.png)
 # How to use
 Run 
